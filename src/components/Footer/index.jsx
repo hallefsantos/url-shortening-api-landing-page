@@ -6,7 +6,9 @@ import { FaFacebookSquare, FaTwitter, FaPinterest, FaInstagram } from "react-ico
 const Footer = () => {
   return (
     <footer className="bg-violet-darker">
-      <div className="flex flex-col md:flex-row justify-between items-center md:items-start max-w-6xl mx-auto py-14 md:py-20 px-5">
+      <div 
+        className="flex flex-col md:flex-row justify-between items-center md:items-start max-w-6xl mx-auto py-14 md:py-20 px-5"
+      >
         <div className="flex-shrink-0">
           <Image 
             className="brightness-0 invert"
