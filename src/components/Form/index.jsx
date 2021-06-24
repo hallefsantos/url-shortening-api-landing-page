@@ -7,7 +7,6 @@ const Form = ({ link, setLink, handleSubmit }) => {
         className="relative max-w-6xl mx-auto px-5"
       >
         <div className="relative p-5 sm:p-8 lg:py-12 lg:px-16 bg-violet-dark rounded-lg overflow-hidden">
-          <img className="absolute inset-0 w-full h-full object-cover" src="images/bg-shorten-desktop.svg" />
           <form onSubmit={handleSubmit}>
             <div className="relative flex flex-col lg:flex-row">
               <input 

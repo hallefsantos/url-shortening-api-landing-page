@@ -23,6 +23,7 @@ const Form = ({ link }) => {
         className="text-cyan hover:text-violet-dark transition-colors" 
         href={`https://${link.shortUrl}`} 
         target="_blank"
+        rel="noreferrer"
       >
         {link.shortUrl}
       </a>

@@ -1,3 +1,8 @@
+import Image from 'next/image'
+import brandRecognitionSrc from '../../../public/images/icon-brand-recognition.svg'
+import detailedRecordsSrc from '../../../public/images/icon-detailed-records.svg'
+import fullyCustomizableSrc from '../../../public/images/icon-fully-customizable.svg'
+
 const AdvancedStatistics = () => {
   return (
     <section className="pt-12 md:pt-16 pb-16 md:pb-32 bg-violet-light">
@@ -18,7 +23,7 @@ const AdvancedStatistics = () => {
               <div className="absolute top-0 inset-x-0 h-1/2 bg-violet-light"></div>
               <div className="absolute bottom-0 inset-x-0 h-1/2 bg-white rounded-t-md"></div>
               <div className="relative flex items-center justify-center w-20 h-20 mx-auto md:mx-0 bg-violet-dark rounded-full">
-                <img src="images/icon-brand-recognition.svg" />
+              <Image src={brandRecognitionSrc} />
               </div>
             </div>
             <div className="mt-2 p-5 text-center md:text-left">
@@ -33,7 +38,7 @@ const AdvancedStatistics = () => {
               <div className="absolute top-0 inset-x-0 h-1/2 bg-violet-light"></div>
               <div className="absolute bottom-0 inset-x-0 h-1/2 bg-white rounded-t-md"></div>
               <div className="relative flex items-center justify-center w-20 h-20 mx-auto md:mx-0 bg-violet-dark rounded-full">
-                <img src="images/icon-detailed-records.svg" />
+                <Image src={detailedRecordsSrc} />
               </div>
             </div>
             <div className="mt-2 p-5 text-center md:text-left">
@@ -48,7 +53,7 @@ const AdvancedStatistics = () => {
               <div className="absolute top-0 inset-x-0 h-1/2 bg-violet-light"></div>
               <div className="absolute bottom-0 inset-x-0 h-1/2 bg-white rounded-t-md"></div>
               <div className="relative flex items-center justify-center w-20 h-20 mx-auto md:mx-0 bg-violet-dark rounded-full">
-                <img src="images/icon-fully-customizable.svg" />
+                <Image src={fullyCustomizableSrc} />
               </div>
             </div>
             <div className="mt-2 p-5 text-center md:text-left">
