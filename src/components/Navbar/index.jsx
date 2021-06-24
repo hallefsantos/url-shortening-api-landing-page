@@ -45,13 +45,21 @@ const Navbar = () => {
         <button 
           onClick={toggleMenu}
           className="block md:hidden"
+          aria-pressed={menuActive}
+          aria-expanded={menuActive}
+          aria-label="Show Menu"
+          aria-controls="mobile-menu"
         >
-          <HiMenu className="h-8 w-8 text-violet-grayish" />
+          <HiMenu className="h-8 w-8 text-violet-grayish" aria-hidden="true" />
         </button>
 
         {/* Menu mobile */}
         {menuActive && (
-          <div className="absolute top-20 inset-0 mx-5">
+          <div 
+            id="mobile-menu" 
+            className="absolute top-20 inset-x-0 z-10 mx-5"
+            aria-hidden={!menuActive}
+          >
             <div className="py-10 px-6 bg-violet-dark text-white rounded-lg">
               <ul className="pb-8 text-center space-y-8">
                 <li>
