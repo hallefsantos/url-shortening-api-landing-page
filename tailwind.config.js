@@ -9,6 +9,7 @@ module.exports = {
 
       cyan: '#2acfcf',
       violet: {
+        light: '#f0f1f6',
         grayish: '#9e9aa7',
         dark: '#3b3054',
         darker: '#232127',
